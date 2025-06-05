@@ -46,7 +46,8 @@ export default function Login() {
             <h1>Sign in to your account</h1>
             {
                 error?.message &&
-                    <h3 className="login-error">{error.message}</h3>
+                    <h3 className="login-error">
+                    {error.message}</h3>
             }
 
             <form onSubmit={handleSubmit} className="login-form">
