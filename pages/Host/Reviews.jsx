@@ -1,7 +1,7 @@
 import React from "react"
 import { BsStarFill } from "react-icons/bs"
-import graphImage from "../../assets/images/review-graph.png"
 export default function Reviews() {
+    
     const reviewsData = [
         {
             rating: 5,
@@ -29,7 +29,7 @@ export default function Reviews() {
             </div>
             <img
                 className="graph"
-                src={graphImage}
+                src="/assets/images/review-graph.png"
                 alt="Review graph"
             />
             <h3>Reviews (2)</h3>
