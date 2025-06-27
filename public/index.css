@@ -117,10 +117,7 @@ footer {
 
 /*** HOME PAGE ***/
 .home-container {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)),
-        url("./assets/images/home-hero.png") no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #161616;
     min-height: 350px;
     color: white;
     padding: 45px 23px;
@@ -307,9 +304,6 @@ i[class*="van-type-"] {
 .van-detail-container .back-button {
     color: black;
     text-decoration: none;
-}
-
-.van-detail-container .back-button:visited {
 }
 
 .van-detail-container .back-button span {
